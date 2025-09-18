@@ -11,7 +11,7 @@ export const createOrder = async (req: Request, res: Response) => {
     });
   } catch (error) {
     res.send({
-      message: "Order Placement error",
+      message: "Order Placement error ❗",
       error,
     });
   }
